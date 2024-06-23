@@ -1,8 +1,7 @@
-# orrai
-=======
+# Orrai
 # hackaton_2024
 
-| Integrante                        | 
+| Integrantes                       | 
 |-----------------------------------|
 | Coorahua Peña, Ruben Aaron        |
 | Golac Córdova, Luis David         |
@@ -11,6 +10,8 @@
 | Mora Huamanchy, Angel Obed        |
 
 ## Descripción
+
+Nuestra aplicación ofrece alertas sobre eventos cercanos, proporcionando información en tiempo real a los usuarios, incluso sin conexión a internet. Facilita la confirmación de la presencia de personas en la zona afectada, mejorando la respuesta ante emergencias y sirviendo como una fuente informativa valiosa.
 
 ### Carpeta `api`
 Esta carpeta contiene un único endpoint que utiliza la librería `google.generativeai` para la generación de respuestas automatizadas. Este endpoint proporciona mensajes personalizados en base a las entradas recibidas. Está desarrollado en Python y emplea la API de Google para generación de texto.
@@ -33,4 +34,4 @@ Almacena prototipos de vistas y diseños que seran implementadas en el proyecto.
 
 ## Diagrama de Arquitectura 
 
-- **![Diagrama de Arquitectura](img/diagrama_arquitectura.png)**
+- **![Diagrama de Arquitectura](img/diagrama_arquitectura.jpeg)**
