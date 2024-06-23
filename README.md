@@ -1,20 +1,36 @@
-<<<<<<< HEAD
 # orrai
 =======
 # hackaton_2024
 
-A new Flutter project.
+| Integrante                        | 
+|-----------------------------------|
+| Coorahua Peña, Ruben Aaron        |
+| Golac Córdova, Luis David         |
+| Arteaga Montes, Stuart Diego      |
+| Surco Vergara, Maria Fernanda     |
+| Mora Huamanchy, Angel Obed        |
 
-## Getting Started
+## Descripción
 
-This project is a starting point for a Flutter application.
+### Carpeta `api`
+Esta carpeta contiene un único endpoint que utiliza la librería `google.generativeai` para la generación de respuestas automatizadas. Este endpoint proporciona mensajes personalizados en base a las entradas recibidas. Está desarrollado en Python y emplea la API de Google para generación de texto.
 
-A few resources to get you started if this is your first Flutter project:
+### Carpeta `app_simulation_movil`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Aquí se encuentra la aplicación móvil del proyecto, desarrollada en Flutter. La aplicación proporciona una interfaz amigable para la simulación en dispositivos móviles, permitiendo a los usuarios interactuar con las funcionalidades del sistema de manera intuitiva.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> origin/master
+### Carpeta `aws_services`
+
+En esta carpeta se organizan los servicios de AWS que se utilizan en el proyecto. Contiene imagenes relacionado con la integración de servicios en la nube, como S3, DynamoDB, funciones Lambda, entre otros. Estos servicios son fundamentales para el funcionamiento y la gestión de los recursos del proyecto en AWS.
+
+### Carpeta `lambas`
+
+Esta carpeta almacena el código de las funciones Lambda desarrolladas para el proyecto. Las funciones Lambda se utilizan para ejecutar tareas específicas de manera automática, sin necesidad de administrar servidores. Aquí se encuentran los scripts y las configuraciones necesarias para el despliegue y la ejecución de estas funciones en el entorno AWS.
+
+### Carpeta `prototype`
+
+Almacena prototipos de vistas y diseños que seran implementadas en el proyecto. Aquí se encuentran imágenes que representan distintas vistas de la aplicación, utilizadas para el diseño y la planificación.
+
+## Diagrama de Arquitectura 
+
+- **![Diagrama de Arquitectura](img/diagrama_arquitectura.png)**
